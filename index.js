@@ -15,7 +15,7 @@ function forkRepo() {
   //use fetch to fork it!
   fetch(repo, {
     headers: {
-      Authorization: `token c3078e2ca1a44c7bf76c9332aea48ada7ad0b209`
+      Authorization: `token c99ad4b28b0936bd2beadbfaddcf249457714200`
     }
   }).then(res => res.json()).then(json => console.log(json));
 }
