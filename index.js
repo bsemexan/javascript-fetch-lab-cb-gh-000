@@ -21,11 +21,11 @@ function getToken() {
   return ''
 }
 
-
-const token = '0263073ec68f3a4ae1113fe99c97c160e24e9421';
-
-fetch('https://api.github.com/user/repos', {
-  headers: {
-    Authorization: `token ${token}`
-  }
-}).then(res => res.json()).then(json => console.log(json));
+// 
+// const token = '0263073ec68f3a4ae1113fe99c97c160e24e9421';
+//
+// fetch('https://api.github.com/user/repos', {
+//   headers: {
+//     Authorization: `token ${token}`
+//   }
+// }).then(res => res.json()).then(json => console.log(json));
