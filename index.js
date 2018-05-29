@@ -5,6 +5,7 @@ function showIssues(json) {
 }
 
 function createIssue() {
+  const username = ''
   const repo = 'api.github.com/repos/${''}/javascript-fetch-lab/issues'
   fetch(`${repo}`, {
     method: 'post',
