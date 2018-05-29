@@ -5,7 +5,7 @@ function showIssues(json) {
 }
 
 function createIssue() {
-  const repo = 'api.github.com/repos/learn-co-curriculum/javascript-fetch-lab/issues'
+  const repo = 'api.github.com/repos/${''}/javascript-fetch-lab/issues'
   fetch(`${repo}`, {
     method: 'post',
     headers: {
