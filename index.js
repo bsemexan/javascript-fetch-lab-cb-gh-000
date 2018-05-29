@@ -14,7 +14,7 @@ function createIssue() {
     headers: {
       Authorization: `token c99ad4b28b0936bd2beadbfaddcf249457714200`
     },
-    body:{ title: testTest, body: testBody }
+    body:{ title: `test`, body: `test body` }
   }).then(res => res.json()).then(json => console.log(json));
 }
 
