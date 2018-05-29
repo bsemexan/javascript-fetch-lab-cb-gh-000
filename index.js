@@ -6,7 +6,6 @@ function showIssues(json) {
 
 function createIssue() {
   const repo = 'api.github.com/repos/learn-co-curriculum/javascript-fetch-lab/issues'
-  //use fetch to fork it!
   fetch(`${repo}`, {
     method: 'post',
     headers: {
